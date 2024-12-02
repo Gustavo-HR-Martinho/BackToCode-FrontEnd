@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  @font-face {
+    font-family: "Questrial";
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: url(/app/fonts/Questrial.ttf);
+  }
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
