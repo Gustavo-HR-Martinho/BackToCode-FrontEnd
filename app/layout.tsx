@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { Questrial } from "next/font/google";
 import "./globals.css";
+import NavBar from "./components/navbar";
 
 const questrial = Questrial({ subsets: ["latin"], weight: "400" });
 
@@ -31,6 +32,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${questrial.className} antialiased`}
       >
+        <NavBar />
         {children}
       </body>
     </html>
