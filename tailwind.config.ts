@@ -12,6 +12,8 @@ export default {
     },
     extend: {
       colors: {
+        impulse_green: "#4cfc0f",
+        impulse_purple: "#ed45a0",
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
